@@ -35,6 +35,8 @@ const Login = () => {
   return (
 <div className="login-container">
           <form onSubmit={userLogin}>
+            <p className='dummy'>username:kevinryan</p>
+            <p className='dummy'>password:kev02937@</p>
           <div>
           <label htmlFor='username'>UserName</label>
           <input onChange={(e)=>setUserName(e.target.value)} type="text" name="username" id="username" />
